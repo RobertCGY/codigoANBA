@@ -1,0 +1,201 @@
+.header-logo {
+    width: 50px; 
+    height: auto;
+}
+
+.header-title {
+    font-family: 'Bentham', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem; 
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; 
+    padding: 10px 0;
+}
+header img {
+    height: 50px;
+}
+
+header h1 {
+    font-family: 'Bentham', serif;
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.home-section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center; 
+    padding: 0;
+}
+
+
+#section1 {
+    background-image: url(../IMAGENES/FONDOONE.jpg);
+}
+
+
+#section2 {
+    background-image: url(../IMAGENES/FONDO22.jpg);
+}
+
+
+#section3 {
+    background-image: url(../IMAGENES/FONDO3.jpg);
+}
+
+.row {
+    position: relative;
+}
+
+.row::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+.col-md-6 {
+    position: relative; 
+    z-index: 2; 
+}
+.btn-primary {
+    background-color: orange; 
+}
+
+.btn-primary:hover {
+    background-color: orange; 
+}
+
+
+#asignaturas h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#asignaturas p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+#asignaturas ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#asignaturas ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+
+.row.mb-4 {
+    margin-bottom: 3rem;
+}
+/*eventos*/
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+body {
+    background-image: url(../IMAGENES/fondoevento.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Bentham', serif;
+    margin: 0;
+    height: 100vh; 
+}
+
+
+#carrusel-eventos {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 30px 0;
+}
+
+
+#contenido-eventos {
+    background-color: orange; 
+    padding: 40px 0;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+
+#evento1 {
+    background-image: url('path_to_event_image.jpg'); 
+    background-size: cover;
+    background-position: center center; /
+    padding: 50px 20px;
+    min-height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: white; 
+    margin-top: 80px; 
+}
+
+#evento1 h2 {
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+#evento1 p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+}
+
+#evento1 a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#evento1 a:hover {
+    background-color: #0056b3;
+}
